@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = `git ls-files -- test/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_development_dependency "bundler", "~> 1.5"
+  s.add_development_dependency "bundler", "~> 1.4"
   s.add_development_dependency "rake"
   s.add_development_dependency "mocha"
   s.add_development_dependency "shoulda"
@@ -32,6 +32,6 @@ Gem::Specification.new do |s|
   s.add_dependency "oauth", ">= 0.4.5"
   s.add_dependency "activesupport"
   s.add_dependency "nokogiri"
-  s.add_dependency "tzinfo"
+  s.add_dependency "tzinfo", "~> 0.3.37"
   s.add_dependency "i18n"
 end
